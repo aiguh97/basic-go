@@ -1,0 +1,13 @@
+go mod init santrikoding/backend-api
+
+go get -u github.com/gin-gonic/gin@v1.10.0
+
+go get github.com/joho/godotenv@v1.5.1
+
+go get -u gorm.io/gorm@v1.25.12
+
+go get -u gorm.io/driver/mysql@v1.5.7
+
+go get github.com/golang-jwt/jwt/v5@v5.2.2
+
+go get github.com/go-playground/validator/v10@v10.26.0
